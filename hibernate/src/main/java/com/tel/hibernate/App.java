@@ -17,6 +17,7 @@ public class App
         teluso.setAid(101);
         teluso.setAname("priya");
         teluso.setColor("blue");
+        System.out.println( "teluso" +teluso );
         
         Configuration con = new Configuration();
         SessionFactory sf = con.buildSessionFactory();
